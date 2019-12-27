@@ -1521,12 +1521,12 @@
   dependencies:
     "@formatjs/intl-utils" "^1.6.0"
 
-"@formatjs/intl-relativetimeformat@^4.4.0", "@formatjs/intl-relativetimeformat@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-relativetimeformat/-/intl-relativetimeformat-4.5.1.tgz#167298f3ca61123ac4cc4e45d09e55678dd7d369"
-  integrity sha512-s32xwuxvkozX6NxUVAnEGZU1/k3HA3kSsRXtpCvftnCWsshNAUsUWLS/6GpfHcjLfY1XEGptSKouTasyGLZdsg==
+"@formatjs/intl-relativetimeformat@^4.5.1", "@formatjs/intl-relativetimeformat@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-relativetimeformat/-/intl-relativetimeformat-4.5.3.tgz#f738dad1ac874ec5790ecced9d58388747d80d26"
+  integrity sha512-j8ZGaS0Rcx0nDG+rnsDUnw7p0DH1pBV+pz3LIm4eZRl1f93IBC/RbR8E1mAvT28kAyq4vVg5YNDGI3oUlpbR9g==
   dependencies:
-    "@formatjs/intl-utils" "^1.6.0"
+    "@formatjs/intl-utils" "^2.0.0"
 
 "@formatjs/intl-unified-numberformat@^2.2.0":
   version "2.2.0"
@@ -1539,6 +1539,11 @@
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-1.6.0.tgz#43b094232b9ef98b57a270bcecee99168d329e9f"
   integrity sha512-5D0C4tQgNFJNaJ17BYum0GfAcKNK3oa1VWzgkv/AN7i52fg4r69ZLcpEGpf6tZiX9Qld8CDwTQOeFt6fuOqgVw==
+
+"@formatjs/intl-utils@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.0.0.tgz#b39ea374c793761a22d0d11cf63fdd8ac3a64a8c"
+  integrity sha512-+IRnZmkji94Pw6P6k/FvQJ4l4WNCHseZrKFZMsGN/CPm2aOfTtUVBLL4lPofIsbkiHBASU02HtyvPvf9C5ELAg==
 
 "@formatjs/macro@^0.2.6":
   version "0.2.6"
