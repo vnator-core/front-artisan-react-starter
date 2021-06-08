@@ -1111,6 +1111,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.9.2":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.4.0", "@babel/template@^7.7.4":
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.7.4.tgz#428a7d9eecffe27deac0a98e23bf8e3675d2a77b"
@@ -1477,15 +1484,13 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@reduxjs/toolkit@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.2.3.tgz#666f6085fab0f10f72dbafb8259496da9bd5914d"
-  integrity sha512-CgeZl41Bmz1rFkASt5gA9egCy9YWXzy485EsEXoGd2Xm1o63UQCxfuCLTH+XlTs25WqtGjSmn5H4xu7n86ytYw==
+"@reduxjs/toolkit@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.6.0.tgz#0a17c6941c57341f8b31e982352b495ab69d5add"
+  integrity sha512-eGL50G+Vj5AG5uD0lineb6rRtbs96M8+hxbcwkHpZ8LQcmt0Bm33WyBSnj5AweLkjQ7ZP+KFRDHiLMznljRQ3A==
   dependencies:
-    immer "^4.0.1"
-    redux "^4.0.0"
-    redux-devtools-extension "^2.13.8"
-    redux-immutable-state-invariant "^2.1.0"
+    immer "^9.0.1"
+    redux "^4.1.0"
     redux-thunk "^2.3.0"
     reselect "^4.0.0"
 
@@ -6126,10 +6131,10 @@ immer@1.10.0:
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
   integrity sha512-O3sR1/opvCDGLEVcvrGTMtLac8GJ5IwZC4puPrLuRj3l7ICKvkmA0vGuU9OW8mV9WIBRnaxp5GJh9IEAaNOoYg==
 
-immer@^4.0.1:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-4.0.2.tgz#9ff0fcdf88e06f92618a5978ceecb5884e633559"
-  integrity sha512-Q/tm+yKqnKy4RIBmmtISBlhXuSDrB69e9EKTYiIenIKQkXBQir43w+kN/eGiax3wt1J0O1b2fYcNqLSbEcXA7w==
+immer@^9.0.1:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.2.tgz#83e4593df9914acaecfd9fac6a8601ef44d883fc"
+  integrity sha512-mkcmzLtIfSp40vAqteRr1MbWNSoI7JE+/PB36FNPoSfJ9RQRmNKuTYCjKkyXyuq3Dgn07HuJBrwJd4ZSk2yUbw==
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -6310,7 +6315,7 @@ intl-pluralrules@^1.1.1:
   dependencies:
     make-plural "^6.0.1"
 
-invariant@^2.1.0, invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -7304,7 +7309,7 @@ json-stable-stringify@^1.0.1:
   dependencies:
     jsonify "~0.0.0"
 
-json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
+json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
@@ -10393,19 +10398,6 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redux-devtools-extension@^2.13.8:
-  version "2.13.8"
-  resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.8.tgz#37b982688626e5e4993ff87220c9bbb7cd2d96e1"
-  integrity sha512-8qlpooP2QqPtZHQZRhx3x3OP5skEV1py/zUdMY28WNAocbafxdG2tRD1MWE7sp8obGMNYuLWanhhQ7EQvT1FBg==
-
-redux-immutable-state-invariant@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/redux-immutable-state-invariant/-/redux-immutable-state-invariant-2.1.0.tgz#308fd3cc7415a0e7f11f51ec997b6379c7055ce1"
-  integrity sha512-3czbDKs35FwiBRsx/3KabUk5zSOoTXC+cgVofGkpBNv3jQcqIe5JrHcF5AmVt7B/4hyJ8MijBIpCJ8cife6yJg==
-  dependencies:
-    invariant "^2.1.0"
-    json-stringify-safe "^5.0.1"
-
 redux-mock-store@^1.5.4:
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/redux-mock-store/-/redux-mock-store-1.5.4.tgz#90d02495fd918ddbaa96b83aef626287c9ab5872"
@@ -10418,13 +10410,12 @@ redux-thunk@^2.3.0:
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
   integrity sha512-km6dclyFnmcvxhAcrQV2AkZmPQjzPDjgVlQtR0EQjxZPyJ0BnMf3in1ryuR8A2qU0HldVRfxYXbFSKlI3N7Slw==
 
-redux@^4.0.0:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
-  integrity sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
+redux@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.1.0.tgz#eb049679f2f523c379f1aff345c8612f294c88d4"
+  integrity sha512-uI2dQN43zqLWCt6B/BMGRMY6db7TTY4qeHHfGeKb3EOhmOKjU3KdWvNLJyqaHRksv/ErdNH7cFZWg9jXtewy4g==
   dependencies:
-    loose-envify "^1.4.0"
-    symbol-observable "^1.2.0"
+    "@babel/runtime" "^7.9.2"
 
 reflect.ownkeys@^0.2.0:
   version "0.2.0"
@@ -10452,6 +10443,11 @@ regenerator-runtime@^0.13.2, regenerator-runtime@^0.13.3:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
   integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
 regenerator-transform@^0.14.0:
   version "0.14.1"
@@ -11901,7 +11897,7 @@ svgo@^1.0.0, svgo@^1.2.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-symbol-observable@^1.0.2, symbol-observable@^1.0.4, symbol-observable@^1.2.0:
+symbol-observable@^1.0.2, symbol-observable@^1.0.4:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
